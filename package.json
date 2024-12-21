@@ -1,0 +1,16 @@
+{
+  "name": "crypto-zombies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "npx prettier --write --plugin=prettier-plugin-solidity \"**/*.sol\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.4.2",
+    "prettier-plugin-solidity": "^1.4.1"
+  }
+}
