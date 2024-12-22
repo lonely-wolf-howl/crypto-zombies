@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prettier": "npx prettier --write --plugin=prettier-plugin-solidity \"**/*.sol\""
+    "prettier": "npx prettier --write --plugin=prettier-plugin-solidity \"**/*.sol\"",
+    "compile": "find ./src -name '*.sol' -exec npx solc --bin --abi --optimize -o ./build {} +"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "prettier": "^3.4.2",
-    "prettier-plugin-solidity": "^1.4.1",
-    "solc": "^0.8.28"
+    "prettier-plugin-solidity": "^1.4.1"
   }
 }
